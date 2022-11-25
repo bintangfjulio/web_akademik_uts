@@ -63,8 +63,8 @@
                 <thead>
                     <tr>
                         <th scope="col">No</th>
-                        <th scope="col">Mahasiswa</th>
                         <th scope="col">NIM</th>
+                        <th scope="col">Mahasiswa</th>
                         <th scope="col">Kelas</th>
                         <th scope="col">Mata Kuliah</th>
                         <th scope="col">Tahun Akademik</th>
@@ -93,8 +93,8 @@
                             } ?></h6>
                         <tr>
                             <td width="5%"><?php print $no; ?></td>
-                            <td><?php print $kelas_participated['Nama']; ?></td>
                             <td><?php print $kelas_participated['NIM']; ?></td>
+                            <td><?php print $kelas_participated['Nama']; ?></td>
                             <td><?php print $kelas_participated['nama']; ?></td>
                             <td><?php print $kelas_participated['nama_matakuliah']; ?></td>
                             <td><?php print $kelas_participated['tahun_akademik']; ?></td>
