@@ -1,0 +1,44 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-0 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  align-items: center;
+  text-align: center;
+  font-size: large;
+}
+
+.container-1 {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 30px;
+  justify-content: center;
+}
+
+.menu-item {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 30px;
+  align-items: center;
+}
+
+.menu-desc {
+  border: 1px solid #b8b8b8;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.typing{
+	color: rgba(40, 119, 165, 0.8);
+  font-size: 30px;
+}
